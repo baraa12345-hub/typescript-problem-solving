@@ -1,0 +1,21 @@
+{
+  "name": "typescript-problem-solving",
+  "version": "1.0.0",
+  "description": "A collection of TypeScript solutions for coding challenges and algorithm problems.",
+  "main": "index.js",
+  "scripts": {
+    "floodfill": "tsc && node ./dist/Problem-1-Flood-Fill/FloodFill.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baraa12345-hub/typescript-problem-solving.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baraa12345-hub/typescript-problem-solving/issues"
+  },
+  "homepage": "https://github.com/baraa12345-hub/typescript-problem-solving#readme"
+}
