@@ -1,4 +1,4 @@
-const largestRectangle = (heights: number[]): number => {
+export const largestRectangle = (heights: number[]): number => {
   let maxArea = 0;
 
   for (let i = 0; i < heights.length; i++) {
@@ -17,4 +17,4 @@ const largestRectangle = (heights: number[]): number => {
   return maxArea;
 };
 
-console.log(largestRectangle([6, 2, 5, 4, 5, 1, 6])); 
+//console.log(largestRectangle([6, 2, 5, 4, 5, 1, 6])); 
