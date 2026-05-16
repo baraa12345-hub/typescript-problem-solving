@@ -10,6 +10,7 @@
     "JumpGame": "tsc && node ./dist/Problem-4-JumpGame/JumpGame.js",
     "RodCutting": "tsc && node ./dist/Problem-5-RodCutting/RodCutting.js",
     "LargestRectangle": "tsc && node ./dist/Problem-6-LargestRectangle/LargestRectangle.js",
+    "MaximalRectangle": "tsc && node ./dist/Problem-7-MaximalRectangle/MaximalRectangle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
