@@ -11,8 +11,7 @@ const climbingStairs = (n: number): number => {
     return 2;
   }
 
-
-  return climbingStairs(n-1) + climbingStairs(n-2);
+  return climbingStairs(n - 1) + climbingStairs(n - 2);
 };
 
 console.log(climbingStairs(4));
