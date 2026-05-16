@@ -4,7 +4,7 @@ A collection of TypeScript solutions for coding challenges and algorithm problem
 
 This repository contains algorithm and problem-solving exercises implemented in TypeScript.
 
-The goal of this project is to practice logical thinking, improve TypeScript skills, and understand common algorithm patterns such as recursion, DFS, greedy algorithms, dynamic programming, and array-based problem solving.
+The goal of this project is to practice logical thinking, improve TypeScript skills, and understand common algorithm patterns such as recursion, DFS, greedy algorithms, dynamic programming ideas, histogram-based solutions, and array-based problem solving.
 
 ---
 
@@ -26,7 +26,9 @@ typescript-problem-solving/
 │   ├── Problem-2-TrappingRainWater/
 │   ├── Problem-3-ClimbingStairs/
 │   ├── Problem-4-JumpGame/
-│   └── Problem-5-RodCutting/
+│   ├── Problem-5-RodCutting/
+│   ├── Problem-6-LargestRectangle/
+│   └── Problem-7-MaximalRectangle/
 │
 ├── package.json
 ├── tsconfig.json
@@ -77,6 +79,22 @@ Determines the maximum profit that can be obtained by cutting a rod into pieces 
 
 ---
 
+### 6. Largest Rectangle in Histogram
+**Algorithm:** Array Traversal / Histogram
+
+**Description:**
+Finds the largest rectangular area that can be formed using contiguous bars in a histogram.
+
+---
+
+### 7. Maximal Rectangle
+**Algorithm:** Histogram Approach / Reusing Largest Rectangle
+
+**Description:**
+Finds the largest rectangle containing only 1s in a binary matrix by converting each row into a histogram.
+
+---
+
 ## Learning Goals
 
 This project helps me practice:
@@ -87,7 +105,8 @@ This project helps me practice:
 - DFS
 - Greedy algorithms
 - Dynamic programming concepts
-- Problem solving
+- Histogram-based problem solving
+- Import and export between TypeScript files
 - Clean code structure
 - Algorithm thinking
 
@@ -99,6 +118,7 @@ This project helps me practice:
 - Recursion
 - Greedy Algorithms
 - Array Traversal
+- Histogram Approach
 - Dynamic Programming Ideas
 - Problem Solving Patterns
 
@@ -126,6 +146,8 @@ npm run TrappingRainwater
 npm run ClimbingStairs
 npm run JumpGame
 npm run RodCutting
+npm run LargestRectangle
+npm run MaximalRectangle
 ```
 
 ---
