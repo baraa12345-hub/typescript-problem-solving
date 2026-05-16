@@ -7,6 +7,7 @@
     "floodfill": "tsc && node ./dist/Problem-1-Flood-Fill/FloodFill.js",
     "trappingRainwater": "tsc && node ./dist/Problem-2-TrappingRainWater/trappingRainwater.js",
     "climbingStairs": "tsc && node ./dist/Problem-3-ClimbingStairs/climbingStairs.js",
+    "JumpGame": "tsc && node ./dist/Problem-4-JumpGame/JumpGame.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
