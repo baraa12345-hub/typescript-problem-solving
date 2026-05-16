@@ -4,7 +4,7 @@ A collection of TypeScript solutions for coding challenges and algorithm problem
 
 This repository contains algorithm and problem-solving exercises implemented in TypeScript.
 
-The goal of this project is to practice logical thinking, improve TypeScript skills, and understand common algorithm patterns such as recursion, DFS, greedy algorithms, and array-based problem solving.
+The goal of this project is to practice logical thinking, improve TypeScript skills, and understand common algorithm patterns such as recursion, DFS, greedy algorithms, dynamic programming, and array-based problem solving.
 
 ---
 
@@ -25,7 +25,8 @@ typescript-problem-solving/
 │   ├── Problem-1-Flood-Fill/
 │   ├── Problem-2-TrappingRainWater/
 │   ├── Problem-3-ClimbingStairs/
-│   └── Problem-4-JumpGame/
+│   ├── Problem-4-JumpGame/
+│   └── Problem-5-RodCutting/
 │
 ├── package.json
 ├── tsconfig.json
@@ -68,6 +69,14 @@ Determines whether it is possible to reach the last index of an array.
 
 ---
 
+### 5. Rod Cutting
+**Algorithm:** Recursion / Dynamic Programming Idea
+
+**Description:**
+Determines the maximum profit that can be obtained by cutting a rod into pieces and selling them based on a given price list.
+
+---
+
 ## Learning Goals
 
 This project helps me practice:
@@ -77,6 +86,7 @@ This project helps me practice:
 - Recursion
 - DFS
 - Greedy algorithms
+- Dynamic programming concepts
 - Problem solving
 - Clean code structure
 - Algorithm thinking
@@ -89,6 +99,7 @@ This project helps me practice:
 - Recursion
 - Greedy Algorithms
 - Array Traversal
+- Dynamic Programming Ideas
 - Problem Solving Patterns
 
 ---
@@ -110,10 +121,11 @@ npx tsc
 Run specific problems:
 
 ```bash
-npm run floodfill
-npm run trappingRainwater
-npm run climbingStairs
-npm run jumpGame
+npm run FloodFill
+npm run TrappingRainwater
+npm run ClimbingStairs
+npm run JumpGame
+npm run RodCutting
 ```
 
 ---
